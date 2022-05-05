@@ -32,13 +32,13 @@ const newAdvice = ()=>{
                 const {id,advice} = slip
 
             return <div key={id}>
-                <h4 className='id-advice'>ADVICE #{id}</h4>
+                <p className='adviceNumber'>ADVICE #{id}</p>
                 <p key={id}>{advice}</p>
             </div>
             })}
-            <img className='box-img' src={images} alt="Advice Box" />
+            <img className='box-img' src={images} alt="AdviceBox image" />
             <button className='btn' onClick={newAdvice}>
-                <img className='dice-img' src={image} alt="dice" />
+                <img className='dice-img' src={image} alt="dice buttom" />
             </button>
         </article>
     </div>

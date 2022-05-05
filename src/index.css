@@ -19,6 +19,7 @@ body {
   padding: 0 1rem;
 }
 
+
   p {
     color: hsl(193, 38%, 86%);
     font-size: 24px;
@@ -30,7 +31,7 @@ body {
     width: 100%;
   }
 
-h4 {
+.adviceNumber {
   color: hsl(150, 100%, 66%);
   padding-top: 4rem;
   letter-spacing: 0.25rem;
@@ -83,7 +84,7 @@ h4 {
 
 @media screen and (min-width: 600px) {
   .box .box-img {
-    margin-top: 4rem;
+    margin-top: 2rem;
     width: 100%;
   }
 }
