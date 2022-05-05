@@ -36,9 +36,9 @@ const newAdvice = ()=>{
                 <p key={id}>{advice}</p>
             </div>
             })}
-            <img className='box-img' src={images} alt="AdviceBox image" />
+            <img className='box-img' src={images} alt="AdviceBox" />
             <button className='btn' onClick={newAdvice}>
-                <img className='dice-img' src={image} alt="dice buttom" />
+                <img className='dice-img' src={image} alt="dice" />
             </button>
         </article>
     </div>
