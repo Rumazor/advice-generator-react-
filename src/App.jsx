@@ -32,7 +32,7 @@ const newAdvice = ()=>{
                 const {id,advice} = slip
 
             return <div key={id}>
-                <p className='adviceNumber'>ADVICE #{id}</p>
+                <h1 className='adviceNumber'>ADVICE #{id}</h1>
                 <p key={id}>{advice}</p>
             </div>
             })}
